@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name='viewport' content='width=device-width,initial-scale=1.0,user-scalable=no'>
+        <title>loft</title>
+        <style>
+            * { margin: 0; padding: 0; border: none; outline: none; }
+            html, body { width: 100%; height: 100%; }
+            body { background: black; }
+            #khanvas { display: block; }
+            .center { position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); }
+            .fill { position: fixed; top: 0; left: 0; bottom: 0; left: 0; width: 100%; height: 100%; min-width: 100vw; min-height: 100vh; }
+        </style>
+    </head>
+    <body>
+        <canvas id="khanvas" class="fill" width="1920" height="1080" tabindex="-1" oncontextmenu="return false"></canvas>
+        <script src="kha.js"></script>
+    </body>
+</html>
